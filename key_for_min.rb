@@ -6,8 +6,6 @@ def key_for_min_value(hash)
       lowest_value = value 
       lowest_key = key 
     end
-  hash.each_value do |num| 
-    num <=> num 
-    return hash
-  end
+end 
+lowest_key
 end 
